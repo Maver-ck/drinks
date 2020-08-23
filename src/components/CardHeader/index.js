@@ -1,14 +1,24 @@
 import React from "react";
 
-const CardHeader = (props) => {
+const CardHeader = ({
+  timeCreated,
+  avatar,
+  creator,
+  eventName,
+  location: { name, latitude, longitude },
+}) => {
   return (
     <div className="content">
-      <div className="right floated meta">{props.timeCreated}</div>
-      <img className="ui avatar image" src={props.avatar} alt="avatar" />
-      {props.creator}
-      <div className="header">{props.eventName}</div>
+      <div className="right floated meta">{timeCreated}</div>
+      <img className="ui avatar image" src={avatar} alt="avatar" />
+      {creator}
+      <div className="header">{eventName}</div>
       <div className="meta">
-        <a>Location: {props.location.name}</a>
+        <a
+          href={`https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`}
+        >
+          Location: {name}
+        </a>
       </div>
     </div>
   );
