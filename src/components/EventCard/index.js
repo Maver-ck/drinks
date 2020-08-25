@@ -5,7 +5,6 @@ import CardComments from "../CardComments";
 import "./index.css";
 
 const EventCard = (props) => {
-  console.log(`/${props.eventType}-icon.png`.toLowerCase());
   return (
     <div className="card">
       <CardHeader

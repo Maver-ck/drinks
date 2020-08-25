@@ -1,13 +1,12 @@
 import React from "react";
 
-const ImageCard = (props) => {
+const ImageCard = ({ eventType }) => {
   return (
     <div className="image">
       <img
-        src={`/${props.eventType.substring(
-          0,
-          props.eventType.length - 1
-        )}-icon-background.png`.toLowerCase()}
+        src={require(`../../resources/${eventType
+          .slice(0, -1)
+          .toLowerCase()}-icon-background.png`)}
         alt="icon"
       />
     </div>
