@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,yBAEE,wBACF","file":"main.037adc13.chunk.css","sourcesContent":[".ui.card,\n.ui.cards > .card {\n  background-color: #5dab7c;\n}\n"]}
