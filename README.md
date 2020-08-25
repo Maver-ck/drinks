@@ -6,15 +6,15 @@ The cards show the title, user posting the event, the time it was posted as peri
 
 A picture of the event type is shown also.  There is a comments section at the bottom of each card which can be clicked to display comments.
 
-I chose JS instead of TS due to time constraints of setting up a project in TS and I also have more recent experience setting up new React projects with JS rather than TS (although I predominantly work with an existing TS React project). 
+- I chose JS instead of TS due to time constraints of setting up a project in TS and I also have more recent experience setting up new React projects with JS rather than TS (although I predominantly work with an existing TS React project). 
 
-There are a few styling issues which I would have fixed if I had time, such as the tiny drinks logo in the header and the colour of the text in the card which I wanted to be brown as in the colour palette. The CSS framework I was using (semantic ui) was overriding some of my colours I think so I would need to override those. 
+- There are a few styling issues which I would have fixed if I had time, such as the tiny drinks logo in the header and the colour of the text in the card which I wanted to be brown as in the colour palette. The CSS framework I was using (semantic ui) was overriding some of my colours I think so I would need to override those. 
 
-I would tried to add functionality to add comments if I had the time. 
+- I would tried to add functionality to add comments if I had the time. 
 
-I would have ensured the cards didn't all resize on a single row also. 
+- I would have ensured the cards didn't all resize on a single row also. 
 
-I would also have added some Jest tests for each component if I had the time. 
+- I would also have added some Jest tests for each component if I had the time. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
