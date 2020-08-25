@@ -18,6 +18,8 @@ A picture of the event type is shown also.  There is a comments section at the b
 
 - I would also have added some Jest tests for each component if I had the time. 
 
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
