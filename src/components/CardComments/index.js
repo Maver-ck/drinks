@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Comment from "../Comment";
+import { StyledButton, StyledIcon } from "./styled-card-comments";
 
 const CardComments = (props) => {
   // declaring state variable showComments which we will use to show or hide comments
@@ -7,15 +8,11 @@ const CardComments = (props) => {
 
   return (
     <div className="content">
-      <span className="right floated">
-        <i className="heart outline like icon"></i>
-        17 likes
-      </span>
-      <i className="comment icon"></i>
       {/* will style this button later */}
-      <button onClick={() => setShowComments(!showComments)}>
+      <StyledButton onClick={() => setShowComments(!showComments)}>
+        <StyledIcon className="comment icon"></StyledIcon>
         {props.comments.length} comments
-      </button>
+      </StyledButton>
       {showComments && (
         <div className="ui comments">
           {props.comments.map((comment, index) => {

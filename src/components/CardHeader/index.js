@@ -1,4 +1,13 @@
 import React from "react";
+import styled from "styled-components";
+
+const StyledDiv = styled.div`
+  background-color: #dbb561;
+`;
+
+const StyledTitleDiv = styled.div`
+  color: #4c3800;
+`;
 
 const CardHeader = ({
   timeCreated,
@@ -8,11 +17,11 @@ const CardHeader = ({
   location: { name, latitude, longitude },
 }) => {
   return (
-    <div className="content">
+    <StyledDiv className="content">
       <div className="right floated meta">{timeCreated}</div>
       <img className="ui avatar image" src={avatar} alt="avatar" />
       {creator}
-      <div className="header">{eventName}</div>
+      <StyledTitleDiv className="header">{eventName}</StyledTitleDiv>
       <div className="meta">
         <a
           href={`https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`}
@@ -20,7 +29,7 @@ const CardHeader = ({
           Location: {name}
         </a>
       </div>
-    </div>
+    </StyledDiv>
   );
 };
 

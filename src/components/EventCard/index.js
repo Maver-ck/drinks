@@ -2,6 +2,7 @@ import React from "react";
 import ImageCard from "../ImageCard";
 import CardHeader from "../CardHeader";
 import CardComments from "../CardComments";
+import "./index.css";
 
 const EventCard = (props) => {
   console.log(`/${props.eventType}-icon.png`.toLowerCase());
