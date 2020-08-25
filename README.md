@@ -2,6 +2,8 @@
 
 This is a simple drinks app which uses the REST api events data to show cards with details of the events.
 
+The site is published here: https://maver-ck.github.io/drinks/
+
 The cards show the title, user posting the event, the time it was posted as period in the past and the location. Clicking on the location will open google maps with the coordinates.
 
 A picture of the event type is shown also.  There is a comments section at the bottom of each card which can be clicked to display comments.
