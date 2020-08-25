@@ -11,6 +11,6 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledIcon = styled.i`
-  color: #dbb561;
+  color: #bb6b62;
   padding-right: 1.5em;
 `;
