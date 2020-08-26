@@ -1,6 +1,6 @@
 # Drinks App
 
-This is a simple drinks app which uses the REST api events data to show cards with details of the events.
+This is a simple drinks app which uses the REST api's events data to show cards with details of the events.
 
 The site is published here: https://maver-ck.github.io/drinks/
 
@@ -8,7 +8,7 @@ The cards show the title, user posting the event, the time it was posted as peri
 
 A picture of the event type is shown also.  There is a comments section at the bottom of each card which can be clicked to display comments.
 
-- I chose JS instead of TS due to time constraints of setting up a project in TS and I also have more recent experience setting up new React projects with JS rather than TS (although I predominantly work with an existing TS React project). 
+- I chose JavaScript with React instead of TypeScript due to time constraints of setting up a project in TS and I also have more recent experience setting up new React projects with JS rather than TS (although I predominantly work with an existing TS React project). 
 
 - There are a few styling issues which I would have fixed if I had time, such as the tiny drinks logo in the header and the colour of the text in the card which I wanted to be brown as in the colour palette. The CSS framework I was using (semantic ui) was overriding some of my colours I think so I would need to override those. 
 
